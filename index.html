@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coiffeur Ari Berisha | Frick</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .bg-barber-blue {
+            background-color: #1a2a44;
+        }
+        .text-barber-blue {
+            color: #1a2a44;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-xl font-serif font-bold tracking-tight text-barber-blue">ARI BERISHA</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-barber-blue transition">Home</a>
+                <a href="#services" class="hover:text-barber-blue transition">Leistungen</a>
+                <a href="#hours" class="hover:text-barber-blue transition">Öffnungszeiten</a>
+                <a href="#contact" class="hover:text-barber-blue transition">Kontakt</a>
+            </div>
+            <a href="tel:+41766870204" class="bg-barber-blue text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-900 transition">
+                Anrufen
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-barber-blue text-white">
+        <div class="absolute inset-0 opacity-20">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)" />
+            </svg>
+        </div>
+        
+        <div class="max-w-6xl mx-auto px-4 relative z-10 text-center">
+            <span class="inline-block px-4 py-1 border border-white/30 rounded-full text-sm mb-6 bg-white/10 backdrop-blur-sm">
+                Traditionelles Handwerk in Frick
+            </span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                Coiffeur <span class="italic">Ari</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-300 max-w-2xl mx-auto">
+                Dein Spezialist für Haarschnitt, Bartpflege und Styling. 
+                Komm einfach vorbei – bei uns brauchst du <span class="text-white font-bold underline decoration-blue-400">keinen Termin</span>.
+            </p>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+                <a href="#contact" class="w-full md:w-auto bg-white text-barber-blue px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition shadow-lg">
+                    Standort finden
+                </a>
+                <a href="tel:+41766870204" class="w-full md:w-auto border border-white/30 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition">
+                    +41 76 687 02 04
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Banner -->
+    <div class="bg-gray-100 py-6 border-b">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+            <div class="flex items-center space-x-3 text-barber-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span class="font-semibold">Hauptstrasse 89, 5070 Frick</span>
+            </div>
+            <div class="flex items-center space-x-3 text-barber-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="font-semibold italic text-blue-600">Walk-In: Ohne Termin direkt vorbeikommen</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-barber-blue mb-4">Unsere Leistungen</h2>
+                <div class="w-24 h-1 bg-barber-blue mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-gray-50 rounded-3xl border border-transparent hover:border-barber-blue/20 transition group">
+                    <div class="w-14 h-14 bg-barber-blue/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-barber-blue group-hover:text-white transition">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758L6 18m3-3L6 12m3 3l-2.879-2.879" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Haarschnitt</h3>
+                    <p class="text-gray-600">Präzise Schnitte nach deinen Wünschen. Von klassisch bis modern – wir beherrschen jedes Styling.</p>
+                </div>
+                
+                <div class="p-8 bg-gray-50 rounded-3xl border border-transparent hover:border-barber-blue/20 transition group">
+                    <div class="w-14 h-14 bg-barber-blue/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-barber-blue group-hover:text-white transition">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Bart-Styling</h3>
+                    <p class="text-gray-600">Vom Konturenschneiden bis zur Komplettpflege. Wir bringen deinen Bart perfekt in Form.</p>
+                </div>
+
+                <div class="p-8 bg-gray-50 rounded-3xl border border-transparent hover:border-barber-blue/20 transition group">
+                    <div class="w-14 h-14 bg-barber-blue/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-barber-blue group-hover:text-white transition">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Alles Inklusive</h3>
+                    <p class="text-gray-600">Waschen, Schneiden, Föhnen und Augenbrauen – wir kümmern uns um den kompletten Look.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours and Location -->
+    <section id="hours" class="py-24 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-16 items-start">
+                
+                <!-- Opening Hours Table -->
+                <div class="bg-white/5 p-8 rounded-3xl backdrop-blur-sm border border-white/10">
+                    <h2 class="text-3xl font-bold mb-8 flex items-center">
+                        <svg class="w-8 h-8 mr-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        Öffnungszeiten
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Dienstag - Donnerstag</span>
+                            <span class="text-blue-400">10:00 – 12:00 | 13:00 – 19:30</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Freitag</span>
+                            <span class="text-blue-400">10:00 – 12:00 | 13:00 – 19:30</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Samstag</span>
+                            <span class="text-blue-400">09:00 – 12:00 | 12:30 – 18:00</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/10 pb-2 opacity-50">
+                            <span>Sonntag</span>
+                            <span>Geschlossen</span>
+                        </div>
+                        <div class="flex justify-between opacity-50">
+                            <span>Montag</span>
+                            <span>Geschlossen</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 p-4 bg-blue-500/10 border border-blue-500/20 rounded-xl text-center">
+                        <p class="text-blue-300 font-semibold italic">Walk-ins Willkommen! Einfach vorbeikommen.</p>
+                    </div>
+                </div>
+
+                <!-- Contact & Map Placeholder -->
+                <div id="contact">
+                    <h2 class="text-3xl font-bold mb-8">Kontakt & Adresse</h2>
+                    <div class="space-y-6 mb-8">
+                        <p class="flex items-start text-xl">
+                            <svg class="w-6 h-6 mr-4 mt-1 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /></svg>
+                            Coiffeur Ari Berisha<br>Hauptstrasse 89<br>5070 Frick
+                        </p>
+                        <a href="tel:+41766870204" class="flex items-center text-2xl font-bold text-blue-400 hover:text-blue-300 transition">
+                            <svg class="w-6 h-6 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                            076 687 02 04
+                        </a>
+                    </div>
+                    
+                    <!-- Google Maps Iframe (Mockup) -->
+                    <div class="w-full h-64 rounded-3xl overflow-hidden bg-gray-800 border border-white/10 relative">
+                        <!-- Hinweis: In Produktion hier einen echten Google Maps Embed Link einfügen -->
+                        <div class="absolute inset-0 flex items-center justify-center flex-col text-gray-500">
+                            <svg class="w-12 h-12 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
+                            <span class="text-sm">Interaktive Karte wird geladen...</span>
+                            <!-- Echter Map Link Placeholder -->
+                            <iframe 
+                                class="absolute inset-0 w-full h-full border-0" 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.07632621431!2d8.019183!3d47.512685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790159497e090c5%3A0xc6c766e4a50d2703!2sHauptstrasse%2089%2C%205070%20Frick!5e0!3m2!1sde!2sch!4v1710000000000!5m2!1sde!2sch" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="font-serif font-bold text-2xl text-barber-blue mb-4 uppercase tracking-widest">
+                Ari Berisha
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; <span id="year"></span> Coiffeur Ari Berisha. Alle Rechte vorbehalten. <br>
+                Hauptstrasse 89, 5070 Frick, Schweiz.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA (Sticky) -->
+    <div class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-[90%]">
+        <a href="tel:+41766870204" class="flex items-center justify-center space-x-3 bg-barber-blue text-white p-4 rounded-2xl shadow-2xl font-bold">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+            <span>Jetzt anrufen</span>
+        </a>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
